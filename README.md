@@ -12,7 +12,10 @@ git clone https://github.com/Keybored02/Nasa-mainsail-theme.git ~/klipper_config
 ```bash
 git -C ~/klipper_config/.theme pull
 ```
-
+## Original Author 
+```
+https://github.com/steadyjaw/dracula-mainsail-theme
+```
 ## License
 [MIT License](./LICENSE)
 
