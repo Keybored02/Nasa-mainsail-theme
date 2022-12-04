@@ -1,12 +1,12 @@
-# Dracula for [Mainsail](https://docs.mainsail.xyz/)
+# NASA for [Mainsail](https://docs.mainsail.xyz/)
 
-> A dark theme for [Mainsail](https://github.com/mainsail-crew/mainsail)
+> A NASA theme for [Mainsail](https://github.com/mainsail-crew/mainsail)
 
 ![Screenshot](./screenshot.png)
 
 ## Installation 
 ```bash
-git clone https://github.com/steadyjaw/dracula-mainsail-theme.git ~/klipper_config/.theme
+git clone https://github.com/Keybored02/Nasa-mainsail-theme.git ~/klipper_config/.theme
 ```
 ## Update
 ```bash
