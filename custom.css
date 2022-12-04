@@ -1,23 +1,53 @@
 /*
-This is a dark theme for mainsail.
-It is inspired by the DRACULA theme.
+This is a NASA theme for mainsail.
+It is inspired by the NASA palette.
+Origianl template by steadyjaw/dracula-mainsail-theme
 
 Website:        https://draculatheme.com
 GitHub:         https://github.com/dracula
 
-DRACULA COLOR PALETTE
-    Background:  #282a36;
-    CurrentLine: #44475a;
-    Foreground:  #f8f8f2;
-    Comment:     #6272a4;
-    Cyan:        #8be9fd;
-    Green:       #50fa7b;
-    LightGreen:  #8aff80;
-    Orange:      #ffb86c;
-    Pink:        #ff79c6;
-    Purple:      #bd93f9;
-    Red:         #ff5555;
-    Yellow:      #f1fa8c;
+NASA COLOR PALETTE
+    Primary: #105bd8;
+    Primary Darker: #0b3d91;
+    Primary Darkest: #061f4a;
+    Base: #212121;
+    Gray Dark: #323a45;
+    Gray: #5b616b;
+    Gray Light: #aeb0b5;
+    Gray lighter: #d6d7d9;
+    Gray Lightest: #f1f1f1;
+    Gray Warm Dark: #494440;
+    Gray Warm Light: #e4e2e0;
+    Gray Cool White: #dce4ef;
+    Primary Alt: #02bfe7;
+    Primary Alt Darkest: #046b99;
+    Primary Alt Dark: #00a6d2;
+    Primary Alt Light: #9bdaf1;
+    Primary Alt Lightest: #e1f3f8;
+    Secondary: #dd361c;
+    Secondary Darkest: #99231b;
+    Secondary Dark: #c62d1f;
+    Secondary Light: #e59892;
+    Secondary Lightest: #f9e0de;
+    Gold: #ff9d1e;
+    Gold Light: #f9aa43;
+    Gold Lighter: #ffc375;
+    Gold Lightest: #ffebd1;
+    Green: #2e8540;
+    Green Light: #4aa564;
+    Green Lighter: #94bfa2;
+    Green Lightest: #e7f4e4;
+    Blue: #205493;
+    Blue Cool Light: #4773aa;
+    Blue Cool Lighter: #8ba6ca;
+    Blue Cool Lightest: #dce4ef;
+    
+    
+
+
+    
+
+    
 */
 
 :root {
@@ -227,92 +257,3 @@ body {
     color: hsla(0,0%,100%,.3)!important
 }
 
-/*
-    CHANGE content of icons
-    Material Desgin Icons can be found on https://pictogrammers.github.io/@mdi/font/5.2.45/
-*/
-
-/* Thermometer to Flask */
-.mdi-thermometer-lines:before {
-    content: "\F0828";
-}
-/* Heatbed to Flames */
-.mdi-radiator-disabled:before {
-    content: "\F0238";
-    color: var(--Text);
-}
-/* Nozzle to Saw */
-.mdi-printer-3d-nozzle:before {
-    content: "\F0E22";
-    color: var(--Text);
-}
-/* Snowflake to Reactory */
-.mdi-snowflake:before {
-    content: "\F0708";
-}
-/* Controls to Infected Hand */
-.mdi-gamepad:before {
-    content: "\F1258";
-}
-/* Home to Castle */
-.mdi-home:before {
-    content: "\F011A";
-}
-/* "Cog"/Gearwheel to Spider */
-.mdi-cog:before {
-    content: "\F11EA";
-}
-/* Dipswitch to Bloodbag */
-.mdi-dip-switch:before {
-    content: "\F0CEC";
-}
-/* Code-Tags to Spider-web */
-.mdi-code-tags:before {
-    content: "\F0BCA";
-}
-/* Information to Thunderbolt */
-.mdi-information:before {
-    content: "\F140C";
-}
-/* Fan to Knife */
-.mdi-fan:before {
-    content: "\F09FB";
-}
-/* Connection to magnet */
-.mdi-connection:before {
-    content: "\F0348";
-}
-/*Statistics to snake */ 
-.mdi-chart-areaspline:before {
-    content: "\F150E";
-}
-/* history to sparklies */
-.mdi-history:before {
-    content: "\F1545";
-}
-/* gcode-files */
-.mdi-file-document-multiple-outline:before {
-    content: "\F0E22";
-}
-
-/* MDI
-mdi-bat: F0B5F
-mdi-knife: F09FB
-mdi-blood-bag: F0CEC
-mdi-castle: F011A
-mdi-fire: F0238
-mdi-flask-outline: F0096
-mdi-flask-round-bottom: F124B
-mdi-allergy: F1258
-mdi-circular-saw: F0E22
-mdi-cigar: F1189
-mdi-hot-tub: F0828
-mdi-react: F0708
-mdi-spider-thread: F11EB
-mdi-spider-web: F0BCA
-mdi-spider: F11EA
-mdi-lightning-bolt-outline: F140C
-mdi-magnet-on: F0348
-mdi-snake: F150E
-mdi-bone: F00B9
-*/
